@@ -5,4 +5,5 @@ jobs:
     docker:
       - image: alpine
     steps:
+      - run: echo Hello PR!
       - run: exit
