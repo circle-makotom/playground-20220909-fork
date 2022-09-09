@@ -6,4 +6,5 @@ jobs:
       - image: alpine
     steps:
       - run: echo Hello PR!
+      - run: echo Hello PR!
       - run: exit
