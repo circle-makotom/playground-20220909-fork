@@ -5,6 +5,7 @@ jobs:
     docker:
       - image: alpine
     steps:
+      - checkout
       - run: echo Hello PR!
       - run: echo Hello PR!
       - run: echo Hello PR!
